@@ -1,0 +1,6 @@
+com/gaussic/model/UserEntity.class
+com/gaussic/model/BlogEntity.class
+com/gaussic/controller/MainController.class
+com/gaussic/repository/UserRepository.class
+com/gaussic/repository/BlogRepository.class
+com/gaussic/controller/BlogController.class
