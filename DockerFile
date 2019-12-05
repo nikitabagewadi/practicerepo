@@ -1,0 +1,11 @@
+FROM tomcat:8.5.39-jre8-alpine
+MAINTAINER Nikita b <nikita.bagewadi@cognologix.com>
+
+COPY springmvcdemo.war /usr/local/tomcat/webapps/
+#COPY setenv.sh /usr/local/tomcat/bin/
+#test
+#111
+EXPOSE 8080
+EXPOSE 8123
+
+CMD ["catalina.sh", "run"]
